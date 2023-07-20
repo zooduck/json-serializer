@@ -1,0 +1,26 @@
+{
+  "name": "@zooduck/json-serializer",
+  "version": "0.0.1",
+  "description": "A utility class for serializing and deserializing data using the JSON API",
+  "main": "dist/index.module.js",
+  "type": "module",
+  "repository": {
+    "url": "git+https://github.com/zooduck/json-serializer.git"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js src --coverage",
+    "build": "npm run test && node build.js"
+  },
+  "author": "zooduck",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "@zooduck/build-tools": "^0.0.2",
+    "jest": "^29.6.1",
+    "jest-environment-jsdom": "^29.6.1"
+  },
+  "bugs": {
+    "url": "https://github.com/zooduck/json-serializer/issues"
+  },
+  "homepage": "https://github.com/zooduck/json-serializer#readme"
+}
